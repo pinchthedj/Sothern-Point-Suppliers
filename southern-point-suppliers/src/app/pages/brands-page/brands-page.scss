@@ -1,0 +1,78 @@
+.brands-section {
+  padding: 0px 20px 10px 20px;
+  background: #FAF9F4;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #032239;
+}
+
+.section-header p {
+  color: #063960;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Carousel */
+
+.brands-carousel {
+  display: flex;
+  gap: 20px;
+
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  padding-bottom: 10px;
+}
+
+/* Hide scrollbar */
+
+.brands-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.brands-carousel::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Brand Cards */
+
+.brand-card {
+  min-width: 220px;
+  height: 140px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+
+  transition: 0.3s ease;
+
+  flex-shrink: 0;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-card img {
+  width: 100%;
+  max-width: 140px;
+  object-fit: contain;
+}

@@ -1,1 +1,25 @@
-<p>brands-page works!</p>
+<section class="brands-section">
+
+  <div class="section-header">
+    <h1>Our Partner Brands</h1>
+
+    <p>
+      We proudly collaborate with trusted brands and companies
+      across multiple industries.
+    </p>
+  </div>
+
+  <div class="brands-carousel">
+
+    <div class="brand-card" *ngFor="let brand of brands">
+
+      <img
+        [src]="brand.logo"
+        [alt]="brand.name"
+      >
+
+    </div>
+
+  </div>
+
+</section>
