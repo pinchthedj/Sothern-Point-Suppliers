@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-contact-page',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './contact-page.html',
   styleUrl: './contact-page.scss',
 })
-export class ContactPage {}
+export class ContactPage {
+}

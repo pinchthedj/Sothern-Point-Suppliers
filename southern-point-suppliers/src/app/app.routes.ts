@@ -7,7 +7,7 @@ import { QuotePage } from './pages/quote-page/quote-page';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: '/', pathMatch: 'full'
+        redirectTo: 'about', pathMatch: 'full'
     },
     {
         path: 'about',
@@ -27,7 +27,7 @@ export const routes: Routes = [
     },
     {
         path: '**',
-        redirectTo: '/'
+        redirectTo: ''
     }
 
 ];
